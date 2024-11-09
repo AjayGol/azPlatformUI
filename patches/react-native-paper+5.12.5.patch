@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-paper/src/components/List/ListAccordion.tsx b/node_modules/react-native-paper/src/components/List/ListAccordion.tsx
+index 7c85098..7522f68 100644
+--- a/node_modules/react-native-paper/src/components/List/ListAccordion.tsx
++++ b/node_modules/react-native-paper/src/components/List/ListAccordion.tsx
+@@ -181,7 +181,7 @@ const ListAccordion = ({
+   delayLongPress,
+   expanded: expandedProp,
+   accessibilityLabel,
+-  pointerEvents = 'none',
++  pointerEvents = 'box-none',
+   titleMaxFontSizeMultiplier,
+   descriptionMaxFontSizeMultiplier,
+ }: Props) => {

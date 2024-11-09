@@ -1,0 +1,11 @@
+export declare const isWeb: boolean;
+export declare const isMobile: boolean;
+export declare const isIpad: boolean;
+export declare const screenWidth: number;
+export declare const screenHeight: number;
+export declare const deviceWidth: number;
+export declare const deviceHeight: number;
+export declare const CARD_WIDTH: number;
+export declare const toastWidth: number;
+export declare const leftPadding: number;
+export declare const convertBytes: (bytes: number) => string;

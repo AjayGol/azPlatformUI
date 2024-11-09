@@ -1,0 +1,8 @@
+dist/
+build/
+lib/
+__mocks__/
+storybook-static/
+node_modules/
+*.min.js
+*.d.ts

@@ -1,0 +1,24 @@
+import React from 'react';
+declare const Toast: ({ closable, contentStyle, closeIconSize, closeIconName, closeIconLib, summary, content, severity, detail, severityIconSize, severityIconName, severityIconLib, style, position, visible, life, onClose, testID, sticky, toastIndex, }: {
+    closable: any;
+    contentStyle: any;
+    closeIconSize: any;
+    closeIconName: any;
+    closeIconLib: any;
+    summary: any;
+    content: any;
+    severity: any;
+    detail: any;
+    severityIconSize: any;
+    severityIconName: any;
+    severityIconLib: any;
+    style: any;
+    position?: string;
+    visible: any;
+    life: any;
+    onClose: any;
+    testID: any;
+    sticky: any;
+    toastIndex: any;
+}) => React.JSX.Element;
+export default Toast;

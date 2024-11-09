@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-pdf/ios/RNPDFPdf/RNPDFPdfView.mm b/node_modules/react-native-pdf/ios/RNPDFPdf/RNPDFPdfView.mm
+index c70c17e..b36b11c 100644
+--- a/node_modules/react-native-pdf/ios/RNPDFPdf/RNPDFPdfView.mm
++++ b/node_modules/react-native-pdf/ios/RNPDFPdf/RNPDFPdfView.mm
+@@ -280,7 +280,7 @@ - (void)initCommonProps
+     // Disable built-in double tap, so as not to conflict with custom recognizers.
+     for (UIGestureRecognizer *recognizer in _pdfView.gestureRecognizers) {
+         if ([recognizer isKindOfClass:[UITapGestureRecognizer class]]) {
+-            recognizer.enabled = NO;
++            recognizer.enabled = YES;
+         }
+     }
+ 
